@@ -42,7 +42,7 @@ body a{
 
 .search-box-container{
     width: 40vw;
-    border: 1px solid blue;
+    border: 1px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +56,12 @@ body a{
     color: white;
     outline: none;
     border: none;
+    font-size: 1.5rem;
 }
 
 .account-container{
     display: flex;
+    align-items: center;
 }
 
 .nav-link-container{
@@ -72,4 +74,12 @@ body a{
 
 .nav-link{
     text-transform: uppercase;
+}
+
+.my-account-profile-picture{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
 }
