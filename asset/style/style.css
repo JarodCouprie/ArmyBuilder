@@ -28,11 +28,15 @@ header{
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
     padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 header:hover{
     transition: width 0.8s ease;
     width: 220px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 nav{
@@ -42,7 +46,6 @@ nav{
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .nav-link{
     display: flex;
@@ -70,5 +73,8 @@ nav{
     transition: 0.3s ease-in-out;
 }
 
+/*------------------------MAIN------------------------*/
 
-
+main{
+    padding-left: 70px;
+}
