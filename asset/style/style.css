@@ -13,7 +13,7 @@
 
 body{
     color: #fff;
-    background-color: #252525;
+    /* background-color: #5e1313; */
     font-family: "josefin";
 }
 /*------------------------HEADER------------------------*/
@@ -21,22 +21,18 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    width: 60px;
+    width: 50px;
     height: 100%;
     background-color: #fff;
-    transition: width 0.3s linear;
+    transition: width 0.3s ease-in-out;
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
     padding-left: 10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 header:hover{
-    transition: width 0.8s ease;
+    transition: width 0.4s ease-in-out;
     width: 220px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 nav{
@@ -52,14 +48,12 @@ nav{
     width: 220px;
     height: 60px;
     align-items: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     color: #0f0f0f;
 }
 
 .nav-link img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .nav-link h2{
@@ -68,9 +62,8 @@ nav{
 
 .nav-link:hover{
     background: rgb(176,255,216);
-    background: linear-gradient(90deg, #fff 0%, rgb(0, 93, 59) 100%);
+    background: linear-gradient(90deg, #fff 0%, #5e1313 100%);
     color: #fff;
-    transition: 0.3s ease-in-out;
 }
 
 /*------------------------MAIN------------------------*/
